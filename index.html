@@ -1,0 +1,130 @@
+<!-- Write code below 💖 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" />
+  <script src="script.js"></script>
+  <title>Museum Gallery</title>
+
+</head>
+
+<body>
+  <header>
+    <div id="gallery-container">
+      <h1 id="gallery-header">My Museum Gallery</h1>
+    </div>
+  </header>
+  <!-- Add images here -->
+  <!-- <img src="https://raw.githubusercontent.com/codedex-io/css-101/refs/heads/main/4-layout/25-art-gallery/images/avant-garde-painting.png" alt="" class= "gallery-item" id="item-1"> -->
+  <!-- <img src="https://github.com/codedex-io/css-101/blob/main/4-layout/25-art-gallery/images/greek-sculpture.png?raw=true" alt="" class= "gallery-item" id="item-2">  -->
+  <!-- Right-click on an image in the /images folder, and Copy Image Address -->
+  <main>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#item-1" onclick="shakeElement('item-1')">Avant Garde Painting</a></li>
+        <li><a href="#item-2" onclick="shakeElement('item-2')">Mondrian Composition With Rby</a></li>
+        <li><a href="#item-3" onclick="shakeElement('item-3')">Morning At Montrose</a></li>
+        <li><a href="#item-4" onclick="shakeElement('item-4')">Greek Sculpture</a></li>
+        <li><a href="#item-5" onclick="shakeElement('item-5')">Winged Victory Of Samothrace</a></li>
+        <li><a href="#item-6" onclick="shakeElement('item-6')">Dippy The Dinosaur</a></li>
+        <li><a href="#item-7" onclick="shakeElement('item-7')">Ghibli Museum</a></li>
+        <img src="./images/star.png" alt="My Favorite" class="my-favorite">
+      </ul>
+    </div>
+
+    <section id="gallery">
+      <section id="painting" class="gallery-section">
+        <div class="section-header">
+          <h2>Painting</h2>
+          <p>Painting is the practice of applying pigment to a surface using a brush, palette knife, or other tools.
+            It can be representational or abstract.</p>
+        </div>
+
+        <figure>
+          <div class="img-container">
+            <img src="./images/avant-garde-painting.png" alt="Avant Garde Painting" class="gallery-item" id="item-1">
+          </div>
+          <figcaption>Avant Garde Painting</figcaption>
+        </figure>
+
+        <figure>
+          <div class="img-container">
+            <img src="./images/mondrian-composition-with-rby.png" alt="Mondrian Composition With Rby"
+              class="gallery-item" id="item-2">
+          </div>
+          <figcaption>Mondrian Composition With Rby</figcaption>
+        </figure>
+
+        <figure>
+          <div class="img-container">
+            <img src="./images/morning-at-montrose.png" alt="Morning At Montrose" class="gallery-item" id="item-3">
+          </div>
+          <figcaption>Morning At Montrose</figcaption>
+        </figure>
+
+      </section>
+
+      <section id="sculpture" class="gallery-section">
+        <div class="section-header">
+          <h2>Sculpture</h2>
+          <p>Sculpture is a three-dimensional art form created by shaping or combining hard materials, typically stone,
+            metal, or wood. It can be representational or abstract.</p>
+        </div>
+
+        <figure>
+          <div class="img-container">
+            <img src="./images/greek-sculpture.png" alt="Greek Sculpture" class="gallery-item" id="item-4">
+          </div>
+          <figcaption>Greek Sculpture</figcaption>
+        </figure>
+
+        <figure>
+          <div class="img-container">
+            <img src="./images/winged-victory-of-samothrace.png" alt="Winged Victory Of Samothrace" class="gallery-item"
+              id="item-5">
+          </div>
+          <figcaption>Winged Victory Of Samothrace</figcaption>
+        </figure>
+      </section>
+
+
+      <section id="photography" class="gallery-section">
+        <div class="section-header">
+          <h2>Photography</h2>
+          <p>Photography is the art of capturing light with a camera to create images. It can be used for various
+            purposes, including art, documentation, and communication.</p>
+        </div>
+
+        <figure>
+          <div class="img-container">
+            <img src="./images/dippy-the-dinosaur.png" alt="Dippy The Dinosaur" class="gallery-item" id="item-6">
+          </div>
+          <figcaption>Dippy The Dinosaur</figcaption>
+        </figure>
+
+        <figure>
+          <div class="img-container">
+            <img src="./images/ghibli-museum.png" alt="Ghibli Museum" class="gallery-item" id="item-7">
+          </div>
+          <figcaption>Ghibli Museum</figcaption>
+        </figure>
+
+      </section>
+
+    </section>
+  </main>
+
+  <footer>
+    <div id="footer-container">
+      <p>© 2023 Museum Gallery. All rights reserved.</p>
+      <p>Designed by SadNguyen with &#x2665;&#xfe0f;</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

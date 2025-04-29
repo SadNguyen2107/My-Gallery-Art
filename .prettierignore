@@ -1,0 +1,35 @@
+# Ignore artifacts:
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Ignore environment files:
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore system files:
+.DS_Store
+Thumbs.db
+
+# Ignore compiled outputs:
+*.min.js
+*.min.css
+
+# Ignore version control folders:
+.git/
+.hg/
+.svn/
+
+# Ignore package manager folders:
+.pnpm/
+.yarn/
+.npm/
+
+# Ignore lock files (optional if you don't want Prettier checking them):
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
